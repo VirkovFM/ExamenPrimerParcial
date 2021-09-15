@@ -17,8 +17,8 @@ function calcular(){
         alert("Introduce un valor numerico")
     }
     else{
-        var x1 = (((-1)*bn)-(Math.sqrt(Math.pow(bn,2))-(4*an*cn)))/(2*an);
-        var x2 = (((-1)*bn)+(Math.sqrt(Math.pow(bn,2))-(4*an*cn)))/(2*an);
+        var x1 = (((-1)*bn)-(Math.sqrt(Math.pow(bn,2)-(4*an*cn))))/(2*an);
+        var x2 = (((-1)*bn)+(Math.sqrt(Math.pow(bn,2)-(4*an*cn))))/(2*an);
         document.getElementById("X1").innerHTML= x1
         document.getElementById("X2").innerHTML= x2
     }
