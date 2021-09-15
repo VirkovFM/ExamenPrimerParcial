@@ -2,9 +2,14 @@ document.write("<h1>Serie de fibonacci</>")
    
 function fibonacci(numero)
 {
-    let numeros=[0,1];
+    if(numero==1){
+        var numeros = 0;
+    }
+    else{
+    var numeros=[0,1];
     for (let i = 2; i < numero; i++) {
         numeros[i] = numeros[i - 2] + numeros[i - 1];
+    }
     }
     return numeros;
 }
